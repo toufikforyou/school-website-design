@@ -1,0 +1,436 @@
+@import url("https://fonts.maateen.me/bangla/font.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Bangla", Arial, sans-serif !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgb(26 85 171);
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(26 85 171 / 25%);
+}
+.text-muted {
+  color: #1a7cf7 !important;
+}
+.scroll-menu {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  background: #057f05;
+}
+.rocket_icon:hover .result_icon {
+  transform: rotate(360deg);
+}
+.header-contact {
+  background: #589c2e;
+}
+.responsive {
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-contact {
+  color: white;
+  padding: 0 10px;
+  width: 100%;
+}
+.header-contact li {
+  font-size: 12px;
+  padding: 0 5px;
+  display: inline-block;
+}
+.header-contact li a {
+  color: #efefef;
+  text-decoration: none;
+}
+.email {
+  float: left;
+}
+.other {
+  float: right;
+}
+.school-name {
+  padding: 0 20px;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+.school_name {
+  color: rgba(0, 0, 0, 0.6);
+  float: left;
+  padding: 10px 0 0 0;
+  font-weight: 600;
+}
+.drop-down {
+  padding: 20px 0px;
+  color: black;
+  font-size: 20px;
+  text-align: end;
+}
+#drop-menu {
+  cursor: pointer;
+  overflow: hidden;
+  display: none;
+}
+.school_name h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.school_name p {
+  text-transform: capitalize;
+  margin-top: -10px;
+}
+.logo img {
+  width: 150px;
+}
+.school-name {
+  width: 100%;
+}
+/*this is 2nd section style*/
+.school-menu {
+  background: #057f05;
+  text-align: center;
+}
+#school-menu {
+  z-index: 9999;
+}
+.menu {
+  z-index: 99999;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li {
+  list-style: none;
+  color: white;
+  margin: 0px 10px;
+  padding: 8px 10px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.active,
+.menu ul li:hover {
+  background: #2bab0d;
+}
+.sub-school-one {
+  display: none;
+  z-index: 99999;
+}
+.menu ul li:hover .sub-school-one {
+  display: block;
+  position: absolute;
+  background: #057f05;
+  margin-top: 8px;
+  margin-left: -10px;
+}
+.menu ul li:hover .sub-school-one ul {
+  display: block;
+  margin: 5px;
+}
+.sub-school-one ul {
+  width: 200px;
+}
+.menu ul li:hover .sub-school-one ul li {
+  text-align: left;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+}
+.menu ul li:hover .sub-school-one ul li:last-child {
+  border-bottom: none;
+}
+.menu ul li:hover .sub-school-one ul li a:hover {
+  color: #4287b1;
+}
+.right {
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.down {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.sub-school-two {
+  display: none;
+  z-index: 99999;
+}
+.memu2:hover .sub-school-two {
+  display: block;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 170px;
+  background: green;
+}
+.sub-school-two ul {
+  width: 220px;
+}
+@media screen AND (max-width: 650px) {
+  #school-menu {
+    display: none;
+  }
+  #drop-menu {
+    display: initial;
+  }
+  .menu {
+    width: 100%;
+    max-height: 100%;
+  }
+  .menu ul {
+    display: block;
+    width: 100%;
+  }
+  .menu ul li {
+    margin: 5px 0;
+  }
+  .menu ul li:first-child {
+    margin: 0;
+  }
+  .menu ul li:last-child {
+    margin: 0;
+  }
+  .menu ul li:hover .sub-school-one {
+    position: inherit;
+  }
+  .memu2:hover .sub-school-two {
+    position: inherit;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .menu ul {
+    padding: 8px 10px;
+  }
+  .menu ul li {
+    padding: 8px 0;
+  }
+}
+@media screen AND (max-width: 700px) {
+  .school_name h2 {
+    font-size: 20px;
+  }
+}
+@media screen AND (max-width: 450px) {
+  .school_name h2 {
+    font-size: 18px;
+  }
+}
+/*this is slider section*/
+.slider {
+  background-size: cover !important;
+  background-position: center center;
+  transition: 5s;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  overflow: hidden;
+  outline: none;
+  animation-timing-function: ease-in-out;
+}
+.time-setting {
+  padding: 150px 0;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+}
+.overlay {
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*this is news section*/
+.breaking-news {
+  width: 100%;
+}
+.news-date {
+  background: green;
+  padding: 5px 0px;
+  width: 100%;
+  color: white;
+  float: left;
+  text-align: center;
+}
+.news-content {
+  background: #17a5a5;
+  width: 100%;
+  text-align: center;
+  color: #1c113c;
+  font-weight: 600;
+}
+marquee {
+  padding: 10px 0px 0px 0px;
+}
+/*This is body contant section*/
+.about_itm {
+  text-align: justify;
+}
+.about {
+  margin-top: 20px;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.about_heading h2 {
+  color: #d63c07;
+}
+.about:hover {
+  box-shadow: 0px 0px 0px 1px #43a050;
+}
+.teacer_item img {
+  width: 100px;
+  border-radius: 5px;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.teacer_name {
+  background: #5a7dbd;
+  color: white;
+  border-bottom: 2px solid red;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.teacer_box:hover {
+  box-shadow: 0px 0px 0px 1px #43a050;
+}
+.about-school {
+  width: 64%;
+  float: left;
+}
+.scroll {
+  max-height: 365px;
+  overflow-x: auto;
+}
+.notis-school {
+  width: 34%;
+  float: right;
+  margin-top: 20px;
+}
+.admition-student {
+  width: 34%;
+  float: right;
+}
+.online-result {
+  width: 100%;
+  float: left;
+}
+.head-teacher-box {
+  width: 100%;
+}
+.asesten-head-teacher {
+  width: 49%;
+  float: left;
+}
+.class-teacher {
+  width: 49%;
+  float: right;
+}
+.teacer_box {
+  overflow: hidden;
+  transition: 0.3s;
+  background: #e5e5e5;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.teacer_item {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  text-align: justify;
+}
+.previous_resust_item_tabble {
+  overflow: scroll;
+}
+.aply_gif img {
+  width: 100%;
+}
+.result_option {
+  width: 95%;
+  margin: auto;
+}
+.select_option {
+  margin-bottom: 10px;
+}
+.teacer_name img {
+  width: 40px;
+}
+.notis_board {
+  padding: 5px;
+  max-height: 200px;
+  overflow: hidden;
+}
+.notis_item ul {
+  margin: 0;
+  padding: 0;
+}
+.notis_item ul li {
+  display: inline-block;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.padding {
+  padding: 10px;
+}
+.notis_item ul li a {
+  text-decoration: none;
+}
+.teacher-img img {
+  top: 0;
+  left: 0;
+  background: rbga(0, 0, 0, 1);
+}
+/*This is a futer page*/
+.page-footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.pryment img {
+  width: 300px;
+}
+.mt-4 {
+  text-align: left;
+}
+/*scroll top*/
+
+#auto-scrool-top {
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  background: green;
+  text-align: center;
+  font-size: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+iframe {
+  width: 100% !important;
+}

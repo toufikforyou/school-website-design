@@ -1,0 +1,63 @@
+#contact_us_infancy {
+  margin-top: 80px;
+}
+.content_heading {
+  text-align: center;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: blueviolet;
+  border-bottom: 2px solid green;
+}
+.contract_us {
+  background: white;
+  padding: 10px 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+span#contract_infm {
+  float: right;
+  text-transform: lowercase;
+}
+.contract_info {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 35px;
+}
+.contract_info:last-child {
+  border-bottom: double;
+}
+.google_maps {
+  padding: 50px 0px;
+  text-align: center;
+}
+span#contract_infm a {
+  color: #4c4c4c;
+  text-decoration: none;
+}
+#six-section {
+  background: #f2f2f2;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact h2 {
+  text-align: center;
+  color: #ff5722;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+svg.svg-inline--fa.fa-globe.fa-w-16,
+svg.svg-inline--fa.fa-phone-alt.fa-w-16 {
+  color: aqua;
+}
+svg.svg-inline--fa.fa-map-marker-alt.fa-w-12 {
+  color: brown;
+}
+svg.svg-inline--fa.fa-at.fa-w-16 {
+  color: deepskyblue;
+}
+iframe {
+  width: 100% !important;
+}

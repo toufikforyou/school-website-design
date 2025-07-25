@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.responcive {
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#invoice {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+div.full-contant {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+}
+div.invoice {
+  padding: 20px;
+}
+div.header {
+  width: 100%;
+  overflow: hidden;
+}
+div.logo {
+  width: 50%;
+  float: left;
+}
+div.logo img {
+  width: 150px;
+}
+div.bill-info {
+  padding: 10px;
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+div.bill-info span {
+  font-size: 35px;
+  color: #00a958;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+div.title-name h1 {
+  color: #409845;
+  font-weight: 900;
+  text-align: center;
+  border-bottom: 3px solid #ec008c;
+}
+div.details {
+  width: 100%;
+  margin-top: 30px;
+}
+div.student-info {
+  text-transform: capitalize;
+  width: 60%;
+  float: left;
+  font-weight: 800;
+  border-right: 3px solid #25aae1;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+div.content-info {
+  width: 40%;
+  float: left;
+}
+div.info-student {
+  width: 60%;
+  float: left;
+  text-transform: capitalize;
+}
+div.date-info {
+  font-weight: 800;
+  width: 40%;
+  float: right;
+  padding-left: 10px;
+  font-size: 13px;
+}
+div.invoice-date {
+  width: 40%;
+  float: left;
+  text-transform: capitalize;
+}
+div.invoice-contant {
+  width: 60%;
+  float: left;
+}
+div.table-invoice {
+  margin-top: 10px;
+}
+#BDT {
+  font-size: 14px;
+}
+div.invoice {
+  position: relative;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.degain img {
+  width: 150px;
+  transform: rotateY(45deg);
+}
+.digain {
+  left: 0;
+}
+
+.digain img {
+  width: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div.cash-count {
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 13px;
+}
+div.cash-convert {
+  width: 30%;
+  float: left;
+}
+div.school-info {
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+div.school-inform {
+  width: 60%;
+  float: left;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+div.scl-details {
+  width: 35%;
+  float: left;
+}
+div.signecer {
+  width: 40%;
+  float: left;
+}
+div.head-teacher {
+  width: 100%;
+  text-align: center;
+}
+div.signecers {
+  font-family: monotype corsiva;
+  font-weight: 600;
+}
+div.signecer-info span {
+  border-top: 2px solid #1897c1;
+}

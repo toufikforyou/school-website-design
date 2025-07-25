@@ -1,0 +1,124 @@
+#new_student_condition {
+  margin-top: 50px;
+}
+.div_item_list {
+  font-size: 22px;
+}
+.new_student_info {
+  padding: 5px 5px;
+}
+.new_student_head {
+  color: green;
+  border-bottom: 2px solid #5a7dbd;
+  text-align: center;
+}
+.div_item_list {
+  background: darkseagreen;
+  color: darkgreen;
+  text-align: left;
+
+  padding: 2px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.div_item_item {
+  text-align: justify;
+  font-size: 18px;
+}
+.role_answere span {
+  font-size: 18px;
+  color: red;
+}
+.apply_new {
+  margin-top: 10px;
+  font-size: 20px;
+}
+/*this is admition css*/
+#online_result_section {
+  margin-top: 80px;
+}
+.online_result_header {
+  text-align: center;
+  color: white;
+  background: #2c883c;
+  padding: 2px 0px;
+  border-radius: 5px;
+  padding-top: 8px;
+}
+.found_result_header {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 15px;
+}
+.found_result_header span {
+  border: 1px solid #cccccc;
+  padding: 7px;
+  color: red;
+  border-radius: 5px;
+}
+.result_icon {
+  transition: 0.8s;
+}
+#found_result_section {
+  margin-top: 20px;
+}
+.found_result_header h4 {
+  text-align: center;
+}
+th {
+  background: #65bd65;
+  color: #af1c1c;
+  text-align: center;
+}
+tr {
+  line-height: initial;
+}
+.btn {
+  line-height: 1;
+}
+.online_result_futter {
+  margin-top: 50px;
+  text-align: center;
+}
+.url {
+  float: left;
+}
+.url a {
+  text-decoration: none;
+}
+.found_result_futter {
+  margin-top: 30px;
+  text-align: center;
+  color: #ff2121;
+  background: #80e491;
+  padding: 2px 0px;
+  border-radius: 5px;
+}
+.condition_registration {
+  padding-top: 130px;
+}
+.student_white {
+  float: left;
+  border-top: 1px solid;
+}
+.school_sel {
+  text-align: center;
+}
+.ovivabok_white {
+  float: right;
+  border-top: 1px solid;
+}
+.post-section {
+  width: 100%;
+  overflow: hidden;
+}
+.post-width {
+  width: 60%;
+  margin: 0 auto;
+}
+.title-post h4 {
+  color: green;
+  font-weight: 600;
+  font-size: 20px;
+}
